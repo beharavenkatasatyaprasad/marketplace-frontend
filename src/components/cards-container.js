@@ -47,7 +47,7 @@ const cardsContainer = (props) => {
                     <div className="col row">
                       <div className="col">
                         <a href="/" data-tip data-for="mblNum">
-                          <i class="fa fa-headphones" aria-hidden="true"></i>
+                          <i className="fa fa-headphones" aria-hidden="true"></i>
                         </a>
                         <ReactTooltip id="mblNum" type="info">
                           <span>{candidate.mbl}</span>
@@ -55,7 +55,7 @@ const cardsContainer = (props) => {
                       </div>
                       <div className="col row">
                         <a href="/" data-tip data-for="email">
-                          <i class="fa fa-envelope" aria-hidden="true"></i>
+                          <i className="fa fa-envelope" aria-hidden="true"></i>
                         </a>
 
                         <ReactTooltip id="email" type="info">
