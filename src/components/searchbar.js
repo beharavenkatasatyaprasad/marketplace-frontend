@@ -16,6 +16,7 @@ function Searchbar() {
                 <input
                   type="text"
                   name="Query"
+                  placeholder="Search for process, channel etc"
                   className="form-control search-input-field"
                 />
               </div>
