@@ -11,7 +11,7 @@ class CardGroup extends React.Component {
     };
   }
   componentDidMount() {
-    fetch("http://localhost:5000/getData")
+    fetch("https://voiz-backend.herokuapp.com/getData")
       .then((res) => res.json())
       .then(
         (result) => {
