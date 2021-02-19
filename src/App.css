@@ -4,6 +4,30 @@ body{
   background-color:rgba(220, 220, 220, 0.596);
   font-family: 'Nunito',sans-serif;
 }
+.ScrollUpButton__Container {
+  position: fixed;
+  right: -17.5px !important;
+  bottom: 18px !important;
+  transition: 0.5s;
+  background-image: linear-gradient(
+    to right,
+    #5f2c82 0%,
+    #49a09d 51%,
+    #5f2c82 100%
+  );
+  background-size: 200% auto;
+  font-size: 130%;
+  color: white;
+  display: block;
+  border-radius: 5px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.ScrollUpButton__Container span{
+  font-family: "Poppins", cursive;
+  font-size: 21px !important;
+}
 .bname{
     font-family: 'Poppins',arial,sans-serif;
     letter-spacing:1px;
